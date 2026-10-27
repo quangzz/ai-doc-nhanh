@@ -1,0 +1,13 @@
+
+# Security: Never commit .env or secret key files
+.env
+.env.*
+!.env.example
+*firebase-adminsdk*.json
+*storage-key*.json
+*service-account*.json
+*firebase-key*.json
+sake.json
+node_modules/
+dist/
+.next/
